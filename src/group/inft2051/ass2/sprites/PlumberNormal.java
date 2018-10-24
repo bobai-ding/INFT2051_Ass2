@@ -1,4 +1,4 @@
-package me.inft2051.myapp.sprites;
+package group.inft2051.ass2.sprites;
 
 import com.codename1.ui.Image;
 import com.nlcode.cn1.core.ResourceManager;

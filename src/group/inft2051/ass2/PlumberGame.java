@@ -1,4 +1,4 @@
-package me.inft2051.myapp;
+package group.inft2051.ass2;
 
 import com.codename1.ui.Graphics;
 import com.codename1.ui.Image;
@@ -9,7 +9,7 @@ import com.nlcode.cn1.core.graphics.TileMap;
 import com.nlcode.cn1.core.input.Keyboard;
 import com.nlcode.cn1.core.input.Screenpad;
 import com.nlcode.cn1.core.input.ScreenpadSpriteButton;
-import me.inft2051.myapp.sprites.*;
+import group.inft2051.ass2.sprites.*;
 
 public class PlumberGame extends Game
 {

@@ -1,4 +1,4 @@
-package me.inft2051.myapp;
+package group.inft2051.ass2;
 
 import com.nlcode.cn1.core.graphics.Sprite;
 import com.nlcode.cn1.core.graphics.SpriteFactory;

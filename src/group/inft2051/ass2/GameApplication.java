@@ -1,4 +1,4 @@
-package me.inft2051.myapp;
+package group.inft2051.ass2;
 
 import static com.codename1.ui.CN.*;
 import com.codename1.ui.Display;

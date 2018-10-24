@@ -1,4 +1,4 @@
-package me.inft2051.myapp.sprites;
+package group.inft2051.ass2.sprites;
 
 import com.nlcode.cn1.core.ResourceManager;
 import com.nlcode.cn1.core.graphics.Animation;
