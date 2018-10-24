@@ -2,7 +2,7 @@ package group.inft2051.ass2;
 
 import com.nlcode.cn1.core.graphics.Sprite;
 import com.nlcode.cn1.core.graphics.SpriteFactory;
-import me.inft2051.myapp.sprites.Coin;
+import group.inft2051.ass2.sprites.Coin;
 
 public class PlumberSpriteFactory implements SpriteFactory
 {
