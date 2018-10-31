@@ -7,37 +7,72 @@ import com.nlcode.cn1.core.graphics.Animation;
 public class PlumberNormal extends Plumber
 {
 	public PlumberNormal() {
-		//Cargamos imagenes de Mario mirando a la izquierda
-		Image mario01i = ResourceManager.loadImage("/c_mario_l_01.png");
-		Image mario02i = ResourceManager.loadImage("/c_mario_l_02.png");
-		Image mario03i = ResourceManager.loadImage("/c_mario_l_03.png");
-		Image mario04i = ResourceManager.loadImage("/c_mario_l_04.png");
-		//Cargamos imagenes de Mario mirando a la derecha
-		Image mario01d = ResourceManager.loadImage("/c_mario_r_01.png");
-		Image mario02d = ResourceManager.loadImage("/c_mario_r_02.png");
-		Image mario03d = ResourceManager.loadImage("/c_mario_r_03.png");
-		Image mario04d = ResourceManager.loadImage("/c_mario_r_04.png");
+		//knight walk left
+		Image knight01l = ResourceManager.loadImage("/k01.png");
+		Image knight02l = ResourceManager.loadImage("/k02.png");
+		Image knight03l = ResourceManager.loadImage("/k03.png");
+		//stand
+		Image knight04s = ResourceManager.loadImage("/_IDLE_000.png");
+		//Right
+		Image knight01d = ResourceManager.loadImage("/k04.png");
+		Image knight02d = ResourceManager.loadImage("/k05.png");
+		Image knight03d = ResourceManager.loadImage("/k06.png");
+		Image knight04d = ResourceManager.loadImage("/k07.png");
+		//jumping
+		Image knight01j = ResourceManager.loadImage("/_JUMP_000.png");
+		Image knight02j = ResourceManager.loadImage("/_JUMP_001.png");
+		Image knight03j = ResourceManager.loadImage("/_JUMP_002.png");
+		Image knight04j = ResourceManager.loadImage("/_JUMP_003.png");
+		Image knight05j = ResourceManager.loadImage("/_JUMP_004.png");
+		Image knight06j = ResourceManager.loadImage("/_JUMP_005.png");
+		Image knight07j = ResourceManager.loadImage("/_JUMP_006.png");
+
+		// create the attack animation
+		Image knight01c = ResourceManager.loadImage("/_ATTACK_000.png");
+		Image knight02c = ResourceManager.loadImage("/_ATTACK_001.png");
+		Image knight03c = ResourceManager.loadImage("/_ATTACK_002.png");
+		Image knight04c = ResourceManager.loadImage("/_ATTACK_003.png");
+		Image knight05c = ResourceManager.loadImage("/_ATTACK_004.png");
+		Image knight06c = ResourceManager.loadImage("/_ATTACK_005.png");
+		Image knight07c = ResourceManager.loadImage("/_ATTACK_006.png");
 		//Animacion Mario caminando a la izquierda
 		
 		setAnimCaminandoIzquierda(new Animation());
-		getAnimCaminandoIzquierda().addFrame(mario01i, 150);
-		getAnimCaminandoIzquierda().addFrame(mario02i, 150);
+		getAnimCaminandoIzquierda().addFrame(knight01l, 150);
+		getAnimCaminandoIzquierda().addFrame(knight02l, 150);
+		getAnimCaminandoIzquierda().addFrame(knight03l, 150);
 		//Animacion Mario caminando a la derecha
 		setAnimCaminandoDerecha(new Animation());
-		getAnimCaminandoDerecha().addFrame(mario01d, 150);
-		getAnimCaminandoDerecha().addFrame(mario02d, 150);
+		getAnimCaminandoDerecha().addFrame(knight01d, 150);
+		getAnimCaminandoDerecha().addFrame(knight02d, 150);
+		getAnimCaminandoDerecha().addFrame(knight03d, 150);
+		getAnimCaminandoDerecha().addFrame(knight04d, 150);
 		//Animacion Mario Parado a la izquierda
 		setAnimParadoIzquierda(new Animation());
-		getAnimParadoIzquierda().addFrame(mario04i, 100);
+		getAnimParadoIzquierda().addFrame(knight04s, 100);
 		//Animacion Mario Parado a la derecha
 		setAnimParadoDerecha(new Animation());
-		getAnimParadoDerecha().addFrame(mario04d, 100);
+		getAnimParadoDerecha().addFrame(knight04s, 100);
 		//Animacion Mario Saltando a la izquierda
 		setAnimSaltandoIzquierda(new Animation());
-		getAnimSaltandoIzquierda().addFrame(mario03i, 100);
+		getAnimSaltandoIzquierda().addFrame(knight01j, 100);
+		getAnimSaltandoIzquierda().addFrame(knight02j, 100);
+		getAnimSaltandoIzquierda().addFrame(knight03j, 100);
+		getAnimSaltandoIzquierda().addFrame(knight04j, 100);
+		getAnimSaltandoIzquierda().addFrame(knight05j, 100);
+		getAnimSaltandoIzquierda().addFrame(knight06j, 100);
+		getAnimSaltandoIzquierda().addFrame(knight07j, 100);
+
 		//Animacion Mario Saltando a la derecha
 		setAnimSaltandoDerecha(new Animation());
-		getAnimSaltandoDerecha().addFrame(mario03d, 100);
+		getAnimSaltandoDerecha().addFrame(knight01j, 100);
+		getAnimSaltandoDerecha().addFrame(knight02j, 100);
+		getAnimSaltandoDerecha().addFrame(knight03j, 100);
+		getAnimSaltandoDerecha().addFrame(knight04j, 100);
+		getAnimSaltandoDerecha().addFrame(knight05j, 100);
+		getAnimSaltandoDerecha().addFrame(knight06j, 100);
+		getAnimSaltandoDerecha().addFrame(knight07j, 100);
+
 		//Animacion por Defecto
 		setAnimation(this.getAnimParadoDerecha());
 		//Velocidad

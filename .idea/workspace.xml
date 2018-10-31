@@ -2,261 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be4db1d1-86fe-4824-8095-812c2a385ddb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Transfer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Versions.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Versions.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_l_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_l_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_l_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_l_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_r_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_r_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_r_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_r_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/bg_01.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/bg_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/bg_loading.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/c_mario_jump.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/e_goomba_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/e_goomba_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/e_goomba_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/GameApplication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/GameApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/PlumberGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/PlumberSpriteFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Coin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Plumber$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Plumber$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Plumber$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Plumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/PlumberNormal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/mapa_1-1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/s_coin_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/s_coin_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/s_coin_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/s_coin_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/s_mushroom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/theme.res" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinyfd_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinylj_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinyls_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinylw_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinylw_mario02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinylw_mario03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinyrj_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinyrs_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinyrw_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinyrw_mario02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/tinyrw_mario03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_triangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_triangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/vk_up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/GameApplication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/GameApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/PlumberGame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/PlumberSpriteFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Coin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Plumber$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Plumber$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Plumber$State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Plumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/PlumberNormal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codenameone_settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/codenameone_settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/GameApplication.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/Canvas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/ResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/ResourceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/audio/SoundEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/audio/SoundEffect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Animation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/AnimationFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/AnimationFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Sprite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/SpriteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/SpriteFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/TileMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/TileMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/Emitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/Emitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/Particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/Particle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/ParticleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/ParticleFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/InputEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/InputEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/KeyboardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/KeyboardState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/Screenpad.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/Screenpad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadSpriteButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadSpriteButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadTouch.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadTouch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/TouchPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/TouchPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/TouchPanelState.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/TouchPanelState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/bluetooth/Gamepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/bluetooth/Gamepad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/bluetooth/GamepadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/bluetooth/GamepadState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_l_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_l_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_l_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_l_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_r_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_r_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_r_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_r_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/coin_map.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/coin_map.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/e_goomba_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/e_goomba_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/e_goomba_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/CoinRain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/CoinRain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/PlumberGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/PlumberGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/PlumberSpriteFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/PlumberSpriteFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Coin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Coin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$State.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/s_mushroom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyfd_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinylj_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyls_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinylw_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinylw_mario02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinylw_mario03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrj_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrs_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrw_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrw_mario02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrw_mario03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b_knight_l_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b_knight_l_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b_knight_l_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b_knight_l_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b_knight_r_00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b_knight_r_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b_knight_r_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/b_knight_r_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coin_map.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/coin_map.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e_goomba_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e_goomba_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e_goomba_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/CoinRain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/CoinRain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberSpriteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberSpriteFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Coin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Plumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Plumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/s_mushroom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinyfd_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinylj_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinyls_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinylw_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinylw_mario02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinylw_mario03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinyrj_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinyrs_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinyrw_mario01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinyrw_mario02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tinyrw_mario03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/PlumberNormal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/PlumberNormal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/mapa_1-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/mapa_1-1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/PlumberNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/PlumberNormal.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -296,8 +45,8 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="606">
-                    <caret line="211" column="52" selection-start-line="211" selection-start-column="52" selection-end-line="211" selection-end-column="52" />
+                  <state relative-caret-position="473">
+                    <caret line="204" column="18" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="20" />
                     <folding>
                       <element signature="imports" expanded="true" />
                       <element signature="method#update#0;class#CoinRain#0" />
@@ -934,8 +683,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="211" column="52" selection-start-line="211" selection-start-column="52" selection-end-line="211" selection-end-column="52" />
+        <state relative-caret-position="473">
+          <caret line="204" column="18" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#update#0;class#CoinRain#0" />
