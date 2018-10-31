@@ -14,32 +14,50 @@ import group.inft2051.ass2.sprites.*;
 public class PlumberGame extends Game
 {
 	Plumber plumber;
+	Coin coin;
 	TileMap stage;
-	
-	public PlumberGame(int width, int height) {
+	int screenWidth;
+
+	public PlumberGame (int width, int height)
+	{
 		super(width, height, true, true);
+		screenWidth = width;
 	}
-	
-	@Override
-	public void init() {
+
+	public void init()
+	{
 		Image background = null;
 		background = ResourceManager.loadImage("/bg_01.png");
+
 		plumber = new PlumberNormal();
+		coin = new Coin();
 		stage = new TileMap(
-				this, "/mapa_1-1.csv",
+				this, "/coin_map.csv",
 				new PlumberSpriteFactory(),
-				background, plumber, 10, 10);
-		//stage.setVerticalScrolling(TileMap.Scrolling.END);
+				background, plumber, 10, 10
+		);
+
 		ResourceManager.loadSound("/bg_01.mp3").play();
-		
-		//On screen pad
+
 		createDPad(100, 165);
-		//On screen buttons
 		createButtons(400, 165);
 	}
-	
-	@Override
-	public void update(long time) {
+
+	public void update(long time)
+	{
+		plumberUpdate();
+		coinUpdate();
+		stage.update(time);
+	}
+
+	private void coinUpdate()
+	{
+		int coinWidth = (int)Math.random()*screenWidth;
+
+	}
+
+	private void plumberUpdate()
+	{
 		//A keyCode or Xperia Play's X or Screenbutton 1
 		boolean correr = false;
 		if (this.getCurrentKeyboardState().isKeyDown(Keyboard.Key.A)
@@ -82,29 +100,19 @@ public class PlumberGame extends Game
 				this.plumber.setState(Plumber.State.STANDING);
 			}
 		}
-		stage.update(time);
 	}
-	
-	@Override
-	public void draw(Graphics g, int width, int height) {
+
+	public void draw(Graphics g, int width, int height)
+	{
 		stage.draw(g, width, height);
-		
-		// On screen debug values
-        /*g.drawString("plumber x:" + plumber.getX(), 10, 10);
-         g.drawString("plumber y:" + plumber.getY(), 10, 30);
-         g.drawString("plumber vx:" + plumber.getSpeedX(), 10, 50);
-         g.drawString("plumber vy:" + plumber.getSpeedY(), 10, 70);
-         g.drawString("Sprites:" + stage.getSprites().size(), 10, 100);
-         g.drawString("Touch x:" + getCurrentTouchPanelState().getTouchLocations()[0].getPosition().getX(), 10, 130);
-         g.drawString("Touch y:" + getCurrentTouchPanelState().getTouchLocations()[0].getPosition().getY(), 10, 160);
-         g.drawString("Touch state:" + getCurrentTouchPanelState().getTouchLocations()[0].getState().name(), 10, 190);*/
 	}
-	
-	@Override
-	public void destroy() {
+
+	public void destroy()
+	{
 	}
-	
-	public void createDPad(int x, int y) {
+
+	public void createDPad(int x, int y)
+	{
 		ScreenpadSpriteButton upButton = new ScreenpadSpriteButton(
 				this,
 				x,
@@ -138,7 +146,8 @@ public class PlumberGame extends Game
 		this.getCanvas().getScreenpadSpriteButtons().add(rightButton);
 		this.getCanvas().getScreenpadSpriteButtons().add(downButton);
 	}
-	public void createButtons(int x, int y) {
+	public void createButtons(int x, int y)
+	{
 		ScreenpadSpriteButton triangleButton = new ScreenpadSpriteButton(
 				this,
 				x,
