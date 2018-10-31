@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be4db1d1-86fe-4824-8095-812c2a385ddb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/PlumberNormal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/PlumberNormal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/mapa_1-1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/mapa_1-1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/PlumberNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/PlumberNormal.java" afterDir="false" />
-    </list>
+    <list default="true" id="be4db1d1-86fe-4824-8095-812c2a385ddb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +40,9 @@
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="473">
-                    <caret line="204" column="18" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="20" />
+                  <state relative-caret-position="76">
+                    <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
                     <folding>
-                      <element signature="imports" expanded="true" />
                       <element signature="method#update#0;class#CoinRain#0" />
                       <element signature="method#coinUpdate#0;class#CoinRain#0" />
                       <element signature="class#3441:3997" />
@@ -102,7 +96,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="5" />
+          <entry key="csv" value="6" />
           <entry key="iml" value="1" />
           <entry key="java" value="18" />
           <entry key="mf" value="1" />
@@ -110,7 +104,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="5" />
+          <entry key="CSV" value="6" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="18" />
           <entry key="Manifest" value="1" />
@@ -135,10 +129,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Transfer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="29" />
+            <state relative-caret-position="57">
+              <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#535#536#0" expanded="true" />
                 <element signature="e#554#555#0" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
@@ -326,7 +319,7 @@
     <frame x="729" y="0" width="1196" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20246479" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20246479" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -334,7 +327,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -667,26 +660,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Transfer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="204" column="18" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="20" />
+        <state relative-caret-position="76">
+          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#update#0;class#CoinRain#0" />
             <element signature="method#coinUpdate#0;class#CoinRain#0" />
             <element signature="class#3441:3997" />
@@ -694,6 +672,22 @@
             <element signature="method#createDPad#0;class#CoinRain#0" />
             <element signature="method#createButtons#0;class#CoinRain#0" />
             <element signature="method#createAccelerometer#0;class#PlumberGame#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mapa_1-1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Transfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding>
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
           </folding>
         </state>
       </provider>
