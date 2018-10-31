@@ -226,6 +226,7 @@ public class Plumber extends Sprite
 		WALKING,
 		JUMPING,
 		STANDING
+
 	};
 	private State state = State.STANDING;
 	private int coins = 0;
