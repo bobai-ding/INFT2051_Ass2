@@ -1,11 +1,14 @@
 package group.inft2051.ass2;
 
-import com.codename1.ui.Graphics;
-import com.codename1.ui.Image;
+import com.codename1.ui.*;
+import com.codename1.sensors.SensorListener;
+import com.codename1.sensors.SensorsManager;
+import com.codename1.ui.layouts.BorderLayout;
 import com.nlcode.cn1.core.Game;
 import com.nlcode.cn1.core.ResourceManager;
 import com.nlcode.cn1.core.graphics.Animation;
 import com.nlcode.cn1.core.graphics.TileMap;
+import com.nlcode.cn1.core.input.InputEvent;
 import com.nlcode.cn1.core.input.Keyboard;
 import com.nlcode.cn1.core.input.Screenpad;
 import com.nlcode.cn1.core.input.ScreenpadSpriteButton;
@@ -14,14 +17,17 @@ import group.inft2051.ass2.sprites.*;
 public class PlumberGame extends Game
 {
 	Plumber plumber;
+	Transfer transfer;
 	Coin coin;
 	TileMap stage;
 	int screenWidth;
+	float xdetector;
+	float ydetector;
+	float zdetector;
 
 	public PlumberGame (int width, int height)
 	{
 		super(width, height, true, true);
-		screenWidth = width;
 	}
 
 	public void init()
@@ -30,6 +36,7 @@ public class PlumberGame extends Game
 		background = ResourceManager.loadImage("/bg_01.png");
 
 		plumber = new PlumberNormal();
+		transfer = new Transfer();
 		coin = new Coin();
 		stage = new TileMap(
 				this, "/coin_map.csv",
@@ -37,11 +44,14 @@ public class PlumberGame extends Game
 				background, plumber, 10, 10
 		);
 
-		ResourceManager.loadSound("/bg_01.mp3").play();
+		ResourceManager.loadSound("/bg_02.mp3").play();
 
 		createDPad(100, 165);
 		createButtons(400, 165);
+		// createAccelerometer();
 	}
+
+	public void draw(){}
 
 	public void update(long time)
 	{
@@ -52,7 +62,7 @@ public class PlumberGame extends Game
 
 	private void coinUpdate()
 	{
-		int coinWidth = (int)Math.random()*screenWidth;
+		int position = (int) Math.random() * 40;
 
 	}
 
@@ -92,6 +102,96 @@ public class PlumberGame extends Game
 				|| this.getCurrentScreenpadState().isButtonDown(Screenpad.Button.B2)) {
 			this.plumber.saltar();
 		}
+		if (this.getCurrentKeyboardState().isKeyDown(Keyboard.Key.DOWN)
+				|| this.getCurrentKeyboardState().isKeyDown(Keyboard.Key.XPERIA_PLAY_DOWN)
+				|| this.getCurrentScreenpadState().isButtonDown(Screenpad.Button.DOWN))
+		{
+			if (this.plumber.getCoins() == 1) {
+				backup game = new backup(640, 240);
+				Form objForm = new Form()
+				{
+					@Override
+					public void keyPressed(int keyCode) {
+						InputEvent.registerKeyPress(keyCode);
+					}
+
+					@Override
+					public void keyReleased(int keyCode) {
+						InputEvent.registerKeyRelease(keyCode);
+					}
+
+					@Override
+					public void pointerDragged(int[] x, int[] y) {
+						InputEvent.registerTouchMovement(x, y);
+					}
+
+					@Override
+					public void pointerPressed(int[] x, int[] y) {
+						InputEvent.registerTouchPress(x, y);
+					}
+
+					@Override
+					public void pointerReleased(int[] x, int[] y) {
+						InputEvent.registerTouchRelease(x, y);
+					}
+				};
+				objForm.setLayout(new BorderLayout());
+				objForm.addComponent(BorderLayout.CENTER, game.getCanvas());
+				objForm.show();
+				game.run(objForm);
+			}
+		}
+		if (this.ydetector > 6)
+		{
+			if (this.xdetector > 0.5)
+			{
+				this.plumber.setDireccion(Plumber.Direction.LEFT);
+				this.plumber.setSpeedX(plumber.getSpeedX() - this.plumber.getVelocidad());
+				if (correr)
+					this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+			}
+			if (this.xdetector < -0.5)
+			{
+				this.plumber.setDireccion(Plumber.Direction.RIGHT);
+				this.plumber.setSpeedX(this.plumber.getVelocidad());
+				if (correr)
+					this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+			}
+		}
+		if (this.xdetector < -6)
+		{
+			if (this.ydetector > 0.5)
+			{
+				this.plumber.setDireccion(Plumber.Direction.LEFT);
+				this.plumber.setSpeedX(plumber.getSpeedX() - this.plumber.getVelocidad());
+				if (correr)
+					this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+			}
+			if (this.xdetector < -0.5)
+			{
+				this.plumber.setDireccion(Plumber.Direction.RIGHT);
+				this.plumber.setSpeedX(this.plumber.getVelocidad());
+				if (correr)
+					this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+			}
+		}
+		if (this.xdetector > 6)
+		{
+			if (this.ydetector < -0.5)
+			{
+				this.plumber.setDireccion(Plumber.Direction.LEFT);
+				this.plumber.setSpeedX(plumber.getSpeedX() - this.plumber.getVelocidad());
+				if (correr)
+					this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+			}
+			if (this.xdetector > 0.5)
+			{
+				this.plumber.setDireccion(Plumber.Direction.RIGHT);
+				this.plumber.setSpeedX(this.plumber.getVelocidad());
+				if (correr)
+					this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+			}
+		}
 		//Update plumber states
 		if (!this.plumber.getState().equals(Plumber.State.JUMPING)) {
 			if (this.plumber.getSpeedX() != 0) {
@@ -104,6 +204,12 @@ public class PlumberGame extends Game
 
 	public void draw(Graphics g, int width, int height)
 	{
+		g.setColor(0xffffff);
+		String scoreToDraw = String.valueOf(this.plumber.getCoins());
+		int scorePositionX = Display.getInstance().getDisplayWidth()/2;
+		int scoreStringWidth = g.getFont().stringWidth(scoreToDraw)/2;
+		scorePositionX -= scoreStringWidth;
+		g.drawString(scoreToDraw, scorePositionX, 50);
 		stage.draw(g, width, height);
 	}
 
@@ -164,5 +270,22 @@ public class PlumberGame extends Game
 				Screenpad.Button.B2);
 		this.getCanvas().getScreenpadSpriteButtons().add(triangleButton);
 		this.getCanvas().getScreenpadSpriteButtons().add(circleButton);
+	}
+
+	 public void createAccelerometer()
+	{
+		SensorsManager sensorsManager = SensorsManager.getSensorsManager(SensorsManager.TYPE_ACCELEROMETER);
+		if (sensorsManager != null)
+		{
+			sensorsManager.registerListener(new SensorListener() {
+				@Override
+				public void onSensorChanged(long l, float v, float v1, float v2)
+				{
+					xdetector = v;
+					ydetector = v1;
+					zdetector = v2;
+				}
+			});
+		}
 	}
 }

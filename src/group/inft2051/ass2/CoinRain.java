@@ -2,6 +2,9 @@ package group.inft2051.ass2;
 
 import com.codename1.ui.Graphics;
 import com.codename1.ui.Image;
+import com.codename1.sensors.SensorListener;
+import com.codename1.sensors.SensorsManager;
+import com.codename1.ui.Label;
 import com.nlcode.cn1.core.Game;
 import com.nlcode.cn1.core.ResourceManager;
 import com.nlcode.cn1.core.graphics.Animation;
@@ -17,6 +20,9 @@ public class CoinRain extends Game
     Coin coin;
     TileMap stage;
     int screenWidth;
+    float xdetector;
+    float ydetector;
+    float zdetector;
 
     public CoinRain (int width, int height)
     {
@@ -37,10 +43,11 @@ public class CoinRain extends Game
                 background, plumber, 10, 10
         );
 
-        ResourceManager.loadSound("/bg_01.mp3").play();
+        ResourceManager.loadSound("/bg_02.mp3").play();
 
         createDPad(100, 165);
         createButtons(400, 165);
+        createAccelerometer();
     }
 
     public void update(long time)
@@ -52,7 +59,7 @@ public class CoinRain extends Game
 
     private void coinUpdate()
     {
-        int coinWidth = (int)Math.random()*screenWidth;
+        int position = (int) Math.random() * 40;
 
     }
 
@@ -91,6 +98,57 @@ public class CoinRain extends Game
                 || this.getCurrentKeyboardState().isKeyDown(Keyboard.Key.XPERIA_PLAY_CIRCLE)
                 || this.getCurrentScreenpadState().isButtonDown(Screenpad.Button.B2)) {
             this.plumber.saltar();
+        }
+        if (this.ydetector > 6)
+        {
+            if (this.xdetector > 0.5)
+            {
+                this.plumber.setDireccion(Plumber.Direction.LEFT);
+                this.plumber.setSpeedX(plumber.getSpeedX() - this.plumber.getVelocidad());
+                if (correr)
+                    this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+            }
+            if (this.xdetector < -0.5)
+            {
+                this.plumber.setDireccion(Plumber.Direction.RIGHT);
+                this.plumber.setSpeedX(this.plumber.getVelocidad());
+                if (correr)
+                    this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+            }
+        }
+        if (this.xdetector < -6)
+        {
+            if (this.ydetector > 0.5)
+            {
+                this.plumber.setDireccion(Plumber.Direction.LEFT);
+                this.plumber.setSpeedX(plumber.getSpeedX() - this.plumber.getVelocidad());
+                if (correr)
+                    this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+            }
+            if (this.xdetector < -0.5)
+            {
+                this.plumber.setDireccion(Plumber.Direction.RIGHT);
+                this.plumber.setSpeedX(this.plumber.getVelocidad());
+                if (correr)
+                    this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+            }
+        }
+        if (this.xdetector > 6)
+        {
+            if (this.ydetector < -0.5)
+            {
+                this.plumber.setDireccion(Plumber.Direction.LEFT);
+                this.plumber.setSpeedX(plumber.getSpeedX() - this.plumber.getVelocidad());
+                if (correr)
+                    this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+            }
+            if (this.xdetector > 0.5)
+            {
+                this.plumber.setDireccion(Plumber.Direction.RIGHT);
+                this.plumber.setSpeedX(this.plumber.getVelocidad());
+                if (correr)
+                    this.plumber.setSpeedX(plumber.getSpeedX() * 2);
+            }
         }
         //Update plumber states
         if (!this.plumber.getState().equals(Plumber.State.JUMPING)) {
@@ -164,5 +222,22 @@ public class CoinRain extends Game
                 Screenpad.Button.B2);
         this.getCanvas().getScreenpadSpriteButtons().add(triangleButton);
         this.getCanvas().getScreenpadSpriteButtons().add(circleButton);
+    }
+
+    public void createAccelerometer()
+    {
+        SensorsManager sensorsManager = SensorsManager.getSensorsManager(SensorsManager.TYPE_ACCELEROMETER);
+        if (sensorsManager != null)
+        {
+            sensorsManager.registerListener(new SensorListener() {
+                @Override
+                public void onSensorChanged(long l, float v, float v1, float v2)
+                {
+                    xdetector = v;
+                    ydetector = v1;
+                    zdetector = v2;
+                }
+            });
+        }
     }
 }

@@ -215,18 +215,18 @@ public class Plumber extends Sprite
 	}
 	
 	public enum Direction {
-		
 		LEFT,
 		RIGHT
 	};
 	private Direction direction = Direction.RIGHT;
 	
 	public enum State {
-		
 		WALKING,
 		JUMPING,
-		STANDING
+		STANDING,
+		LIE
 	};
+
 	private State state = State.STANDING;
 	private int coins = 0;
 	private int lives = 0;

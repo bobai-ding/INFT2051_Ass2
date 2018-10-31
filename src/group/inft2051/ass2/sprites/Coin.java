@@ -7,7 +7,7 @@ import com.nlcode.cn1.core.graphics.Sprite;
 
 public class Coin extends Sprite
 {
-	private float gravity = 0.002f;
+	private float gravity = 0.02f;
 
 	public Coin() {
 	    Animation anim = new Animation();
@@ -21,7 +21,7 @@ public class Coin extends Sprite
 
 	public void update(long time) {
 		//Gravedad
-		this.setSpeedY(this.getGravity() * time);
+		this.setSpeedY(this.getGravity());
 		super.update(time);
 	}
 

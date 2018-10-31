@@ -1,7 +1,263 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be4db1d1-86fe-4824-8095-812c2a385ddb" name="Default Changelist" comment="" />
+    <list default="true" id="be4db1d1-86fe-4824-8095-812c2a385ddb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Transfer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Versions.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Versions.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/101.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/103.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/104.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/108.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/92.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_l_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_l_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_l_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_l_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_r_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_r_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_r_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/b_knight_r_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/bg_01.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/bg_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/bg_loading.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/c_mario_jump.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/e_goomba_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/e_goomba_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/e_goomba_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/GameApplication$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/GameApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/PlumberGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/PlumberSpriteFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Coin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Plumber$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Plumber$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Plumber$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/Plumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/group/inft2051/ass2/sprites/PlumberNormal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/mapa_1-1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/s_coin_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/s_coin_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/s_coin_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/s_coin_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/s_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/theme.res" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinyfd_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinylj_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinyls_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinylw_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinylw_mario02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinylw_mario03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinyrj_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinyrs_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinyrw_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinyrw_mario02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/tinyrw_mario03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_d_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/vk_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/GameApplication$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/GameApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/PlumberGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/PlumberSpriteFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Coin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Plumber$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Plumber$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Plumber$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/Plumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/group/inft2051/ass2/sprites/PlumberNormal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/codenameone_settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/codenameone_settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/GameApplication.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/Canvas.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/Canvas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/ResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/ResourceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/audio/SoundEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/audio/SoundEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Animation.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Animation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/AnimationFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/AnimationFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Sprite.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Sprite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/SpriteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/SpriteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/TileMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/TileMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/Emitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/Emitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/Particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/Particle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/ParticleFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/particle/ParticleFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/InputEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/InputEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/KeyboardState.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/KeyboardState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/Screenpad.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/Screenpad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadSpriteButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadSpriteButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadTouch.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/ScreenpadTouch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/TouchPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/TouchPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/TouchPanelState.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/TouchPanelState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/bluetooth/Gamepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/bluetooth/Gamepad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/bluetooth/GamepadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/input/bluetooth/GamepadState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_l_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_l_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_l_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_l_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_r_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_r_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_r_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/b_knight_r_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/coin_map.csv" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/coin_map.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/e_goomba_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/e_goomba_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/e_goomba_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/CoinRain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/CoinRain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/PlumberGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/PlumberGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/PlumberSpriteFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/PlumberSpriteFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Coin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Coin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$State.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber$State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/INFT2051_Ass2/group/inft2051/ass2/sprites/Plumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/s_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyfd_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinylj_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyls_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinylw_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinylw_mario02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinylw_mario03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrj_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrs_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrw_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrw_mario02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/INFT2051_Ass2/tinyrw_mario03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_knight_l_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_knight_l_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_knight_l_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_knight_l_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_knight_r_00.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_knight_r_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_knight_r_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/b_knight_r_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coin_map.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/coin_map.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e_goomba_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e_goomba_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e_goomba_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/CoinRain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/CoinRain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberSpriteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberSpriteFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Coin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Coin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Plumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Plumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/s_mushroom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinyfd_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinylj_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinyls_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinylw_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinylw_mario02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinylw_mario03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinyrj_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinyrs_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinyrw_mario01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinyrw_mario02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tinyrw_mario03.png" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,75 +265,156 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Plumber.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="567">
+                    <caret line="292" column="29" selection-start-line="292" selection-start-column="29" selection-end-line="292" selection-end-column="29" />
+                    <folding>
+                      <element signature="e#3368#3418#0" />
+                      <element signature="e#3504#3534#0" />
+                      <element signature="e#3584#3627#0" />
+                      <element signature="e#3693#3723#0" />
+                      <element signature="e#3771#3813#0" />
+                      <element signature="e#3877#3907#0" />
+                      <element signature="e#3955#3997#0" />
+                      <element signature="e#4061#4092#0" />
+                      <element signature="e#4142#4186#0" />
+                      <element signature="e#4254#4299#0" />
+                      <element signature="e#4527#5358#0" />
+                      <element signature="e#5362#5679#0" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="606">
+                    <caret line="211" column="52" selection-start-line="211" selection-start-column="52" selection-end-line="211" selection-end-column="52" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                      <element signature="method#update#0;class#CoinRain#0" />
+                      <element signature="method#coinUpdate#0;class#CoinRain#0" />
+                      <element signature="class#3441:3997" />
+                      <element signature="method#destroy#0;class#CoinRain#0" />
+                      <element signature="method#createDPad#0;class#CoinRain#0" />
+                      <element signature="method#createButtons#0;class#CoinRain#0" />
+                      <element signature="method#createAccelerometer#0;class#PlumberGame#0" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/backup.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-361">
+                    <caret line="17" selection-start-line="17" selection-end-line="17" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Coin.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="589">
+                    <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                      <element signature="method#update#0;class#Coin#0" />
+                      <element signature="e#843#844#0" expanded="true" />
+                      <element signature="e#871#872#0" expanded="true" />
+                      <element signature="e#972#973#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-458736473">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="csv" value="5" />
           <entry key="iml" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="18" />
+          <entry key="mf" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CSV" value="5" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="18" />
+          <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="csv" value="6" />
+          <entry key="java" value="1361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="CSV" value="6" />
+          <entry key="JAVA" value="1361" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/INFT2051_Ass2.iml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Transfer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Coin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+            <state relative-caret-position="257">
+              <caret line="42" column="21" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Plumber.java">
+        <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/CoinRain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/PlumberNormal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="-836">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="method#update#0;class#PlumberGame#0" />
+                <element signature="method#coinUpdate#0;class#PlumberGame#0" />
+                <element signature="method#plumberUpdate#0;class#PlumberGame#0" />
+                <element signature="e#4805#4806#0" expanded="true" />
+                <element signature="e#4840#4841#0" expanded="true" />
+                <element signature="method#destroy#0;class#PlumberGame#0" />
+                <element signature="method#createDPad#0;class#PlumberGame#0" />
+                <element signature="method#createButtons#0;class#PlumberGame#0" />
+                <element signature="method#createAccelerometer#0;class#PlumberGame#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,26 +422,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/GameApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="188">
+              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <entry file="file://$PROJECT_DIR$/src/coin_map.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberSpriteFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="285">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,19 +451,41 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>coins</find>
+      <find>setCoins</find>
+      <find>getCoins</find>
+      <find>setcoins</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java" />
+        <option value="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Coin.java" />
+        <option value="$PROJECT_DIR$/src/group/inft2051/ass2/CoinRain.java" />
+        <option value="$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Sprite.java" />
+        <option value="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Plumber.java" />
+        <option value="$PROJECT_DIR$/src/coin_map.csv" />
         <option value="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberSpriteFactory.java" />
+        <option value="$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Transfer.java" />
+        <option value="$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="961" />
+    <option name="x" value="729" />
+    <option name="width" value="1196" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
@@ -163,8 +522,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -215,30 +574,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+    <frame x="729" y="0" width="1196" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20246479" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329718" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -248,24 +608,201 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
     <buildFile url="file://$PROJECT_DIR$/build.xml">
+      <targetFilters>
+        <filter targetName="compile-test" isVisible="false" />
+        <filter targetName="-do-test-run" isVisible="false" />
+        <filter targetName="test" isVisible="true" />
+        <filter targetName="-pre-compile" isVisible="false" />
+        <filter targetName="-post-compile" isVisible="false" />
+        <filter targetName="build-for-ios-device" isVisible="false" />
+        <filter targetName="offline-builder-ios-debug" isVisible="false" />
+        <filter targetName="offline-builder-ios-release" isVisible="false" />
+        <filter targetName="offline-builder-android" isVisible="false" />
+        <filter targetName="test-for-ios-device" isVisible="false" />
+        <filter targetName="test-for-android-device" isVisible="false" />
+        <filter targetName="test-for-rim-device" isVisible="false" />
+        <filter targetName="test-for-j2me-device" isVisible="false" />
+        <filter targetName="build-for-ios-device-release" isVisible="false" />
+        <filter targetName="copy-libs" isVisible="false" />
+        <filter targetName="copy-android-override" isVisible="false" />
+        <filter targetName="copy-ios-override" isVisible="false" />
+        <filter targetName="copy-javascript-override" isVisible="false" />
+        <filter targetName="copy-rim-override" isVisible="false" />
+        <filter targetName="copy-desktop-override" isVisible="false" />
+        <filter targetName="copy-j2me-override" isVisible="false" />
+        <filter targetName="clean-override" isVisible="false" />
+        <filter targetName="build-for-android-device" isVisible="false" />
+        <filter targetName="build-for-javascript" isVisible="false" />
+        <filter targetName="war" isVisible="true" />
+        <filter targetName="check-webapp-runner" isVisible="false" />
+        <filter targetName="init-webapp-runner" isVisible="false" />
+        <filter targetName="check-war" isVisible="false" />
+        <filter targetName="init-war" isVisible="false" />
+        <filter targetName="run-war" isVisible="true" />
+        <filter targetName="build-for-rim-device" isVisible="false" />
+        <filter targetName="build-for-mac-os-x-desktop" isVisible="false" />
+        <filter targetName="build-for-windows-desktop" isVisible="false" />
+        <filter targetName="build-for-j2me-device" isVisible="false" />
+        <filter targetName="j2me-native-theme-init" isVisible="false" />
+        <filter targetName="copy-j2me-native" isVisible="false" />
+        <filter targetName="clean-j2me-native" isVisible="false" />
+        <filter targetName="-pre-init" isVisible="false" />
+        <filter targetName="-post-jar" isVisible="false" />
+        <filter targetName="-post-clean" isVisible="false" />
+        <filter targetName="refresh-libs" isVisible="false" />
+        <filter targetName="refresh-libs-impl" isVisible="false" />
+        <filter targetName="copy-windows-override" isVisible="false" />
+        <filter targetName="build-for-win-device" isVisible="false" />
+        <filter targetName="build-for-windows-device" isVisible="false" />
+        <filter targetName="webservice-wizard" isVisible="false" />
+        <filter targetName="-cn1-compile-css" isVisible="false" />
+        <filter targetName="pre-javadoc" isVisible="false" />
+        <filter targetName="javadoc" isVisible="true" />
+        <filter targetName="default" isVisible="true" />
+        <filter targetName="-init-private" isVisible="false" />
+        <filter targetName="-init-user" isVisible="false" />
+        <filter targetName="-init-project" isVisible="false" />
+        <filter targetName="-do-init" isVisible="false" />
+        <filter targetName="-post-init" isVisible="false" />
+        <filter targetName="-init-check" isVisible="false" />
+        <filter targetName="-init-macrodef-property" isVisible="false" />
+        <filter targetName="-init-macrodef-javac-with-processors" isVisible="false" />
+        <filter targetName="-init-macrodef-javac-without-processors" isVisible="false" />
+        <filter targetName="-init-macrodef-javac" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-init" isVisible="false" />
+        <filter targetName="-init-test-properties" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-single" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-batch" isVisible="false" />
+        <filter targetName="-init-macrodef-junit" isVisible="false" />
+        <filter targetName="-init-macrodef-testng" isVisible="false" />
+        <filter targetName="-init-macrodef-test-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-testng-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-test" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-debug" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-debug-batch" isVisible="false" />
+        <filter targetName="-init-macrodef-junit-debug-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-testng-debug" isVisible="false" />
+        <filter targetName="-init-macrodef-testng-debug-impl" isVisible="false" />
+        <filter targetName="-init-macrodef-test-debug-junit" isVisible="false" />
+        <filter targetName="-init-macrodef-test-debug-testng" isVisible="false" />
+        <filter targetName="-init-macrodef-test-debug" isVisible="false" />
+        <filter targetName="profile-init" isVisible="false" />
+        <filter targetName="-profile-pre-init" isVisible="false" />
+        <filter targetName="-profile-post-init" isVisible="false" />
+        <filter targetName="-profile-init-macrodef-profile" isVisible="false" />
+        <filter targetName="-profile-init-check" isVisible="false" />
+        <filter targetName="-init-macrodef-nbjpda" isVisible="false" />
+        <filter targetName="-init-debug-args" isVisible="false" />
+        <filter targetName="-init-macrodef-debug" isVisible="false" />
+        <filter targetName="-init-macrodef-java" isVisible="false" />
+        <filter targetName="-init-macrodef-copylibs" isVisible="false" />
+        <filter targetName="-init-presetdef-jar" isVisible="false" />
+        <filter targetName="-init-ap-cmdline-properties" isVisible="false" />
+        <filter targetName="-init-ap-cmdline-supported" isVisible="false" />
+        <filter targetName="-init-ap-cmdline" isVisible="false" />
+        <filter targetName="init" isVisible="false" />
+        <filter targetName="-deps-jar-init" isVisible="false" />
+        <filter targetName="-warn-already-built-jar" isVisible="false" />
+        <filter targetName="deps-jar" isVisible="false" />
+        <filter targetName="-verify-automatic-build" isVisible="false" />
+        <filter targetName="-check-automatic-build" isVisible="false" />
+        <filter targetName="-clean-after-automatic-build" isVisible="false" />
+        <filter targetName="-pre-pre-compile" isVisible="false" />
+        <filter targetName="-compile-depend" isVisible="false" />
+        <filter targetName="-do-compile" isVisible="false" />
+        <filter targetName="-copy-persistence-xml" isVisible="false" />
+        <filter targetName="compile" isVisible="true" />
+        <filter targetName="-pre-compile-single" isVisible="false" />
+        <filter targetName="-do-compile-single" isVisible="false" />
+        <filter targetName="-post-compile-single" isVisible="false" />
+        <filter targetName="compile-single" isVisible="false" />
+        <filter targetName="-pre-pre-jar" isVisible="false" />
+        <filter targetName="-pre-jar" isVisible="false" />
+        <filter targetName="-do-jar-create-manifest" isVisible="false" />
+        <filter targetName="-do-jar-copy-manifest" isVisible="false" />
+        <filter targetName="-do-jar-set-mainclass" isVisible="false" />
+        <filter targetName="-do-jar-set-profile" isVisible="false" />
+        <filter targetName="-do-jar-set-splashscreen" isVisible="false" />
+        <filter targetName="-do-jar-copylibs" isVisible="false" />
+        <filter targetName="-do-jar-jar" isVisible="false" />
+        <filter targetName="-do-jar-delete-manifest" isVisible="false" />
+        <filter targetName="-do-jar-without-libraries" isVisible="false" />
+        <filter targetName="-do-jar-with-libraries" isVisible="false" />
+        <filter targetName="-do-jar" isVisible="false" />
+        <filter targetName="jar" isVisible="true" />
+        <filter targetName="run" isVisible="true" />
+        <filter targetName="-do-not-recompile" isVisible="false" />
+        <filter targetName="run-single" isVisible="false" />
+        <filter targetName="run-test-with-main" isVisible="false" />
+        <filter targetName="-debug-start-debugger" isVisible="false" />
+        <filter targetName="-debug-start-debugger-main-test" isVisible="false" />
+        <filter targetName="-debug-start-debuggee" isVisible="false" />
+        <filter targetName="debug" isVisible="true" />
+        <filter targetName="-debug-start-debugger-stepinto" isVisible="false" />
+        <filter targetName="debug-stepinto" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-single" isVisible="false" />
+        <filter targetName="debug-single" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-main-test" isVisible="false" />
+        <filter targetName="debug-test-with-main" isVisible="false" />
+        <filter targetName="-pre-debug-fix" isVisible="false" />
+        <filter targetName="-do-debug-fix" isVisible="false" />
+        <filter targetName="debug-fix" isVisible="false" />
+        <filter targetName="-profile-pre72" isVisible="true" />
+        <filter targetName="-profile-single-pre72" isVisible="true" />
+        <filter targetName="-profile-applet-pre72" isVisible="false" />
+        <filter targetName="-profile-test-single-pre72" isVisible="false" />
+        <filter targetName="-profile-check" isVisible="false" />
+        <filter targetName="profile" isVisible="true" />
+        <filter targetName="profile-single" isVisible="true" />
+        <filter targetName="profile-test-single" isVisible="true" />
+        <filter targetName="profile-test" isVisible="true" />
+        <filter targetName="profile-test-with-main" isVisible="true" />
+        <filter targetName="profile-applet" isVisible="false" />
+        <filter targetName="-javadoc-build" isVisible="false" />
+        <filter targetName="-javadoc-browse" isVisible="false" />
+        <filter targetName="-pre-pre-compile-test" isVisible="false" />
+        <filter targetName="-pre-compile-test" isVisible="false" />
+        <filter targetName="-compile-test-depend" isVisible="false" />
+        <filter targetName="-do-compile-test" isVisible="false" />
+        <filter targetName="-post-compile-test" isVisible="false" />
+        <filter targetName="-pre-compile-test-single" isVisible="false" />
+        <filter targetName="-do-compile-test-single" isVisible="false" />
+        <filter targetName="-post-compile-test-single" isVisible="false" />
+        <filter targetName="compile-test-single" isVisible="false" />
+        <filter targetName="-pre-test-run" isVisible="false" />
+        <filter targetName="-post-test-run" isVisible="false" />
+        <filter targetName="test-report" isVisible="false" />
+        <filter targetName="-test-browse" isVisible="false" />
+        <filter targetName="-pre-test-run-single" isVisible="false" />
+        <filter targetName="-do-test-run-single" isVisible="false" />
+        <filter targetName="-post-test-run-single" isVisible="false" />
+        <filter targetName="test-single" isVisible="true" />
+        <filter targetName="-do-test-run-single-method" isVisible="false" />
+        <filter targetName="-post-test-run-single-method" isVisible="false" />
+        <filter targetName="test-single-method" isVisible="true" />
+        <filter targetName="-debug-start-debuggee-test" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-test-method" isVisible="false" />
+        <filter targetName="-debug-start-debugger-test" isVisible="false" />
+        <filter targetName="debug-test" isVisible="false" />
+        <filter targetName="debug-test-method" isVisible="false" />
+        <filter targetName="-do-debug-fix-test" isVisible="false" />
+        <filter targetName="debug-fix-test" isVisible="false" />
+        <filter targetName="run-applet" isVisible="false" />
+        <filter targetName="-debug-start-debuggee-applet" isVisible="false" />
+        <filter targetName="debug-applet" isVisible="false" />
+        <filter targetName="-deps-clean-init" isVisible="false" />
+        <filter targetName="-warn-already-built-clean" isVisible="false" />
+        <filter targetName="deps-clean" isVisible="false" />
+        <filter targetName="-do-clean" isVisible="false" />
+        <filter targetName="clean" isVisible="true" />
+        <filter targetName="-check-call-dep" isVisible="false" />
+        <filter targetName="-maybe-call-dep" isVisible="false" />
+      </targetFilters>
       <expanded value="true" />
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/INFT2051_Ass2.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Plumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/PlumberNormal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -273,36 +810,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/GameApplication.java">
+    <entry file="file://$PROJECT_DIR$/INFT2051_Ass2.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Coin.java">
+    <entry file="file://$PROJECT_DIR$/manifest.mf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/backup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        <state relative-caret-position="-361">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/graphics/Sprite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberSpriteFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java">
+    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/CoinRain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="-836">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="method#update#0;class#PlumberGame#0" />
+            <element signature="method#coinUpdate#0;class#PlumberGame#0" />
+            <element signature="method#plumberUpdate#0;class#PlumberGame#0" />
+            <element signature="e#4805#4806#0" expanded="true" />
+            <element signature="e#4840#4841#0" expanded="true" />
+            <element signature="method#destroy#0;class#PlumberGame#0" />
+            <element signature="method#createDPad#0;class#PlumberGame#0" />
+            <element signature="method#createButtons#0;class#PlumberGame#0" />
+            <element signature="method#createAccelerometer#0;class#PlumberGame#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberSpriteFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Plumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="567">
+          <caret line="292" column="29" selection-start-line="292" selection-start-column="29" selection-end-line="292" selection-end-column="29" />
+          <folding>
+            <element signature="e#3368#3418#0" />
+            <element signature="e#3504#3534#0" />
+            <element signature="e#3584#3627#0" />
+            <element signature="e#3693#3723#0" />
+            <element signature="e#3771#3813#0" />
+            <element signature="e#3877#3907#0" />
+            <element signature="e#3955#3997#0" />
+            <element signature="e#4061#4092#0" />
+            <element signature="e#4142#4186#0" />
+            <element signature="e#4254#4299#0" />
+            <element signature="e#4527#5358#0" />
+            <element signature="e#5362#5679#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/GameApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coin_map.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Coin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#update#0;class#Coin#0" />
+            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/impl/stubs/com/nlcode/cn1/core/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/sprites/Transfer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/group/inft2051/ass2/PlumberGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="211" column="52" selection-start-line="211" selection-start-column="52" selection-end-line="211" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#update#0;class#CoinRain#0" />
+            <element signature="method#coinUpdate#0;class#CoinRain#0" />
+            <element signature="class#3441:3997" />
+            <element signature="method#destroy#0;class#CoinRain#0" />
+            <element signature="method#createDPad#0;class#CoinRain#0" />
+            <element signature="method#createButtons#0;class#CoinRain#0" />
+            <element signature="method#createAccelerometer#0;class#PlumberGame#0" />
           </folding>
         </state>
       </provider>
